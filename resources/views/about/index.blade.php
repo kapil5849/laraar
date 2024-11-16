@@ -2,15 +2,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ar lab</title>
+    <title>About Page Route</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css">
     @vite('resources/css/app.css')
 </head>
 <body class="bg-gray-900 text-white">
     <div class="flex flex-col items-center justify-center min-h-screen">
-        <a class="bg-green-500 p-4 px-8 mb-4 rounded" href="/about">About Page</a>
-        <h1 class="text-3xl bg-blue-500 p-4 rounded-xl">Welcome to Hello world!</h1>
+        <h1>About details</h1>
+        <h2 class="text-3xl text-centre">{{$name}}</h2>
     </div>
 </body>
-
 </html>
