@@ -18,4 +18,6 @@
     @section('title','About Page Route')  <!-- setting the title of the page...  -->
     <h1>About details</h1>
     <h2 class="text-3xl text-centre">{{$name}}</h2>
+    <a class="bg-yellow-400 p-2 m-2 rounded-2xl text-2xl font-bold" href="/cafes">Ar lab Cafes</a>
+    <a class="bg-yellow-400 p-2 m-2 rounded-2xl text-2xl font-bold" href="/">welcome page</a>
 </x-layout>

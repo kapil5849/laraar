@@ -19,7 +19,7 @@
 
 <x-layout>
     @section('title','Ar lab Cafes')  <!-- setting the title of the page...  -->
-    <h1>Ar lab Cafes</h1>
+    <h1 class="text-2xl">Ar lab Cafes</h1>
     <ul class="text-3xl text-centre"> 
         @foreach($cafes as $cafe)
             <li>
@@ -27,4 +27,5 @@
             </li>
         @endforeach
     </ul>
+    <a class="bg-yellow-400 p-2 m-2 rounded-2xl text-2xl font-bold" href="/about">About Page</a>
 </x-layout>

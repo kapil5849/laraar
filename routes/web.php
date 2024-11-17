@@ -42,3 +42,4 @@ Route::get('/cafes/{id}',function($id){
     ];
     return view('cafes.cafesDetails',['cafe'=>$cafes[$id-1]]);
 });
+

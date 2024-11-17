@@ -8,5 +8,6 @@
         <h2 class="text-3xl text-centre">Status : {{$cafe['status']}}</h2>
         <h2 class="text-3xl text-centre">Price : {{$cafe['price']}}</h2>
     </div>
+    <a class="bg-yellow-400 p-2 m-2 rounded-2xl text-2xl font-bold" href="/cafes">Go Back</a>
 </x-layout> 
 
